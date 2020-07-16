@@ -1,0 +1,171 @@
+body{
+  background-image: linear-gradient(to right, lightskyblue, magenta);
+  text-align: center;
+  margin: 0;
+}
+
+.form_box{
+  display: block;
+  text-align: center;
+}
+
+.inner-form{
+  list-style-type: none;
+  background-color: white;
+  display: inline-block;
+  padding: 50px;
+  border; 10px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.button{
+  background-image: linear-gradient(magenta, white);
+  padding: 05px;
+  border-radius: 10px;
+}
+
+.button1 {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+}
+
+.nav{
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+/*.nav2 {
+  background-color: white;
+  padding: 25px;
+  clear: left;
+}*/
+
+.footer {
+  background-color: white;
+  clear: left;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.nav-text{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  border: 10px;
+  overflow: hidden;
+
+}
+ .nav-text li {
+   float: left;
+ }
+
+
+ li a {
+  display: block;
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.img {
+  float: left;
+  border-style: solid;
+  color: black;
+  padding: 0px;
+  border: 0px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.img1 {
+  top: 30px;
+  left: 0px;
+  width: 1000px;
+  height: 500%;
+  position: static;
+  float: left;
+  margin-bottom: 20px;
+
+}
+
+.para1{
+  float: center;
+  border-color: black;
+  border-style: ridge;
+  color: white;
+  height: 383.73px;
+}
+
+p {
+  margin-left: 10px;
+  display: inline;
+}
+
+.para2 {
+  padding: 10px;
+  border-color: black;
+  border-style: ridge;
+  text-align: left;
+  overflow: hidden;
+
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.para3 {
+  border-color: black;
+  border-style: ridge;
+  text-align: left;
+
+  color: white;
+  margin-bottom: 15px;
+}
+
+.para4 {
+  float: left;
+  padding: 10px;
+  border-color: black;
+  border-style: ridge;
+  text-align: left;
+
+  color: white;
+}
+
+ h2 {
+   color: white;
+ }
+
+ h4 {
+   color: white;
+ }
+
+
+.videodec {
+  box-sizing:content-box;
+  object-fit: cover;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  border-style: solid;
+}
+
+.keys {
+  color: white;
+  float: right;
+  border-style: solid;
+  padding: 10px;
+}
+
+.game {
+  border-style: solid;
+  border-color: white;
+  float: center;
+}
